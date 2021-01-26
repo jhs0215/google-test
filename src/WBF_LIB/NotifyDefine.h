@@ -1,0 +1,15 @@
+#pragma once
+
+#ifndef DEF_NOTIFY
+#define DEF_NOTIFY
+
+enum E_DOCUMENT_NOTIFY
+{
+	E_DOCUMENT_UNKNOWN = 0,
+	E_DOCUMENT_DB_UPDATE,
+	E_DOCUMENT_CLOSE,
+
+	E_DOCUMENT_NUM
+};
+
+#endif // !DEF_NOTIFY

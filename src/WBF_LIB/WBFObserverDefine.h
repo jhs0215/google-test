@@ -1,0 +1,15 @@
+#pragma once
+
+#ifndef OBSERVER_DEF
+#define OBSERBER_DEF
+
+enum E_OBSERBER_TYPE
+{
+	E_UPDATE_UNKNOWN = 0,
+	E_UPDATE_DB_CHANGED,
+
+
+	E_UPDATE_NUM
+};
+
+#endif // !OBSERVER_DEF

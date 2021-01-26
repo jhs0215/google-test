@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="__RESOURCE__">
+      <UniqueIdentifier>{2a36f617-9de1-4f66-83ee-a7cf58f0573a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__GENERAL__">
+      <UniqueIdentifier>{54343e53-538e-42fe-86f9-da55a1b69a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__GENERAL__\Linker">
+      <UniqueIdentifier>{56fd0cfd-a2ed-4456-9fb0-652694eb5306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPTION">
+      <UniqueIdentifier>{0737fed2-541a-4a45-ac88-181fe4bb899e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BASE">
+      <UniqueIdentifier>{de781e09-670b-4887-b68e-dbbc4bf1486f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CONTROL">
+      <UniqueIdentifier>{7ebebfdd-95da-48c8-870a-52624183bd12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CONTROL\Dialog">
+      <UniqueIdentifier>{ebbbc3f9-7c2d-43db-b75d-32d1b88d1180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FILE">
+      <UniqueIdentifier>{3e71bd7b-7038-4d54-92d9-9acf5dc1b16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FILE\Interface">
+      <UniqueIdentifier>{753696c6-b876-458a-b90a-5ccad09403f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FILE\Assimp">
+      <UniqueIdentifier>{d311e6fe-c8a4-4439-ae99-8cafc9eaf94b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WBFDialog.cpp">
+      <Filter>CONTROL\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="WBFOption.cpp">
+      <Filter>OPTION</Filter>
+    </ClCompile>
+    <ClCompile Include="WBFModelOption.cpp">
+      <Filter>OPTION</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>__GENERAL__</Filter>
+    </ClCompile>
+    <ClCompile Include="WBF_BASE.cpp">
+      <Filter>__GENERAL__</Filter>
+    </ClCompile>
+    <ClCompile Include="DocBase.cpp">
+      <Filter>BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewBase.cpp">
+      <Filter>BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCtrlManager.cpp">
+      <Filter>FILE</Filter>
+    </ClCompile>
+    <ClCompile Include="IFileManager.cpp">
+      <Filter>FILE\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="IFileLoader.cpp">
+      <Filter>FILE\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpFile.cpp">
+      <Filter>FILE\Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpManager.cpp">
+      <Filter>FILE\Assimp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WBF_BASE.rc2">
+      <Filter>__RESOURCE__</Filter>
+    </None>
+    <None Include="WBF_BASE.def">
+      <Filter>__GENERAL__</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WBFDialog.h">
+      <Filter>CONTROL\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="WBFOption.h">
+      <Filter>OPTION</Filter>
+    </ClInclude>
+    <ClInclude Include="WBFModelOption.h">
+      <Filter>OPTION</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>__RESOURCE__</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderPost.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderPre.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="WBF_BASE_LINK.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="WBF_BASE.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="DocBase.h">
+      <Filter>BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewBase.h">
+      <Filter>BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCtrlManager.h">
+      <Filter>FILE</Filter>
+    </ClInclude>
+    <ClInclude Include="IFileManager.h">
+      <Filter>FILE\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IFileLoader.h">
+      <Filter>FILE\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpManager.h">
+      <Filter>FILE\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpFile.h">
+      <Filter>FILE\Assimp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WBF_BASE.rc">
+      <Filter>__RESOURCE__</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

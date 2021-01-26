@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="__GENERAL__">
+      <UniqueIdentifier>{0b84b7fd-6850-49f9-9dce-564fd4427fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__GENERAL__\Linker">
+      <UniqueIdentifier>{d866b534-6418-4f69-bb17-4e5aa8326108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__RESOURCE__">
+      <UniqueIdentifier>{85166ae4-8c79-4f45-a8ea-26be491b1d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__RESOURCE__\file">
+      <UniqueIdentifier>{269d1a45-ad1c-4300-b262-a4cea95d604a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>__GENERAL__</Filter>
+    </ClCompile>
+    <ClCompile Include="WBF_GPS.cpp">
+      <Filter>__GENERAL__</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WBF_GPS.def">
+      <Filter>__GENERAL__</Filter>
+    </None>
+    <None Include="res\WBF_GPS.rc2">
+      <Filter>__RESOURCE__</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderPre.h">
+      <Filter>__GENERAL__\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderPost.h">
+      <Filter>__GENERAL__\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="WBF_GPS_LINK.h">
+      <Filter>__GENERAL__\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="WBF_GPS.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>__RESOURCE__</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WBF_GPS.rc">
+      <Filter>__RESOURCE__</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

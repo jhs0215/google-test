@@ -1,0 +1,14 @@
+#pragma once
+
+#ifndef DEFINE_LISTENER
+#define DEFINE_LISTENER
+
+enum E_DOC_LISTENER_TYPE
+{
+	E_DOCUMENT_UNKNOWN = 0,
+	E_DOCUMENT_DB_UPDATE, 
+
+	E_DOCUMENT_NUM
+};
+
+#endif // !DEFINE_LISTENER

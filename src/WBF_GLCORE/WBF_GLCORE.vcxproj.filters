@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VIEW">
+      <UniqueIdentifier>{d1fb041c-c6d6-42bf-82fb-3b2bdeb339a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CONTROL">
+      <UniqueIdentifier>{3b4d6e1a-55a5-45ca-9cd5-9a13eecd206c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CONTROL\Camera">
+      <UniqueIdentifier>{c2042210-3c68-4c67-91d2-cc8be22b0792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__GENERAL__">
+      <UniqueIdentifier>{4e963e18-9ef3-40e7-baaa-7da4f6e245f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__GENERAL__\Linker">
+      <UniqueIdentifier>{f1737fc0-7cea-4987-a313-61c33bbb274a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__RESOURCE__">
+      <UniqueIdentifier>{6a116ac8-3bdc-4409-a58a-bef6496ea577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__RESOURCE__\file">
+      <UniqueIdentifier>{1e24335f-e868-4352-81e2-852338db8ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RENDER">
+      <UniqueIdentifier>{d26d4e6e-298d-4138-bf92-a5fe2a82b72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RENDER\Shader">
+      <UniqueIdentifier>{837ea97b-741a-4ee5-8c0c-cc746f3578be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RENDER\Object Buffer">
+      <UniqueIdentifier>{e102204d-e7aa-46d8-aa8e-fffb037c6278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RENDER\Frame Buffer">
+      <UniqueIdentifier>{8b970f71-3770-4fad-8d36-5c7d5d7e6b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RENDER\Renderer">
+      <UniqueIdentifier>{cede0396-c797-41ce-adb3-6f121bc0b1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CONTROL\Helper">
+      <UniqueIdentifier>{d1a53c03-2a0d-48f4-a0cc-7d956174c71a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>RENDER\Frame Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBufferManager.cpp">
+      <Filter>RENDER\Frame Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GLView.cpp">
+      <Filter>VIEW</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>CONTROL\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GLCtrlView.cpp">
+      <Filter>VIEW</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>__GENERAL__</Filter>
+    </ClCompile>
+    <ClCompile Include="WBF_GLCORE.cpp">
+      <Filter>__GENERAL__</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>RENDER\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>RENDER\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBufferManager.cpp">
+      <Filter>RENDER\Object Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererManager.cpp">
+      <Filter>RENDER\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererFactory.cpp">
+      <Filter>RENDER\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBufferFactory.cpp">
+      <Filter>RENDER\Object Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBuffer.cpp">
+      <Filter>RENDER\Object Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRenderer.cpp">
+      <Filter>RENDER\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewHelper.cpp">
+      <Filter>CONTROL\Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WBF_GLCORE.def">
+      <Filter>__GENERAL__</Filter>
+    </None>
+    <None Include="res\WBF_GLCORE.rc2">
+      <Filter>__RESOURCE__</Filter>
+    </None>
+    <None Include="res\GLSL\Light_frag.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\Light_vert.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\Sample_frag.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\Sample_vert.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\Screen_frag.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\Screen_vert.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\ContainerBox_vert.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\ContainerBox_frag.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\Ground_frag.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\Ground_vert.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\Mesh_frag.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+    <None Include="res\GLSL\Mesh_vert.glsl">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderPost.h">
+      <Filter>__GENERAL__\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderPre.h">
+      <Filter>__GENERAL__\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="WBF_GLCORE_LINK.h">
+      <Filter>__GENERAL__\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>RENDER\Frame Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferManager.h">
+      <Filter>RENDER\Frame Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GLView.h">
+      <Filter>VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>CONTROL\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCtrlView.h">
+      <Filter>VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="WBF_GLCORE.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>__RESOURCE__</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>RENDER\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderDefine.h">
+      <Filter>RENDER\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>RENDER\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBufferManager.h">
+      <Filter>RENDER\Object Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererManager.h">
+      <Filter>RENDER\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererFactory.h">
+      <Filter>RENDER\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBufferFactory.h">
+      <Filter>RENDER\Object Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBuffer.h">
+      <Filter>RENDER\Object Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRenderer.h">
+      <Filter>RENDER\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewHelper.h">
+      <Filter>CONTROL\Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WBF_GLCORE.rc">
+      <Filter>__RESOURCE__</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

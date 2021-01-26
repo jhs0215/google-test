@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{c9b8d1b8-843d-4a29-92e8-e74160018c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Category">
+      <UniqueIdentifier>{33f42c65-2b2a-4658-83c6-27bf2a3cbc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Dialog">
+      <UniqueIdentifier>{972be108-7f14-471d-828f-6892b29839ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__GENERAL__">
+      <UniqueIdentifier>{33bcaba6-aa3a-4c8c-8e2b-b4fd9576b6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__RESOURCE__">
+      <UniqueIdentifier>{1f7c864c-15de-42c7-84c4-acef02e918e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__GENERAL__\Linker">
+      <UniqueIdentifier>{5841765e-3c15-4884-865c-91ef509d67fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__RESOURCE__\file">
+      <UniqueIdentifier>{ed78344e-67ea-4cb2-9189-e42bb8855af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEST">
+      <UniqueIdentifier>{e96c7e76-c0a0-40f6-9d0f-88dc06fb9468}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="WBFDoc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="WBFView.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="WBF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderPost.h">
+      <Filter>__GENERAL__\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderPre.h">
+      <Filter>__GENERAL__\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="calendarbar.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WBFCategoryManager.h">
+      <Filter>UI\Category</Filter>
+    </ClInclude>
+    <ClInclude Include="WBFCategoryBase.h">
+      <Filter>UI\Category</Filter>
+    </ClInclude>
+    <ClInclude Include="WBFCategoryMain.h">
+      <Filter>UI\Category</Filter>
+    </ClInclude>
+    <ClInclude Include="WBFControlDlg.h">
+      <Filter>UI\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>__GENERAL__</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>__RESOURCE__</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WBF.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="WBFDoc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="WBFView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="calendarbar.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WBFCategoryManager.cpp">
+      <Filter>UI\Category</Filter>
+    </ClCompile>
+    <ClCompile Include="WBFCategoryBase.cpp">
+      <Filter>UI\Category</Filter>
+    </ClCompile>
+    <ClCompile Include="WBFCategoryMain.cpp">
+      <Filter>UI\Category</Filter>
+    </ClCompile>
+    <ClCompile Include="WBFControlDlg.cpp">
+      <Filter>UI\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>__GENERAL__</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
+      <Filter>TEST</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WBF.reg">
+      <Filter>__GENERAL__</Filter>
+    </None>
+    <None Include="res\WBF.rc2">
+      <Filter>__RESOURCE__</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>__RESOURCE__\file</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\buttons.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\info.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\nav_large.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\nav_large_hc.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\pages.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\pages_hc.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\pages_small.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\pages_small_hc.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\WBF.ico">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\WBFDoc.ico">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>__RESOURCE__\file</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WBF.rc">
+      <Filter>__RESOURCE__</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
